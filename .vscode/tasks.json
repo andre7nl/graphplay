@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "msvc build",
+        "type": "shell",
+        "command": "cl.exe",
+        "args": ["/I", "include", "/EHsc", "/Zi", "/Fe:", "graph.exe", "graph.cpp", "input.cpp", "text.cpp", "common/shader_utils.cpp",  "/link", "/SUBSYSTEM:CONSOLE", "MSVCMRT.LIB", "FREETYPE.LIB", "SDL2.LIB", "SDL2MAIN.LIB", "GLEW32.LIB", "OPENGL32.LIB", "GLU32.LIB", "KERNEL32.LIB", "USER32.LIB", "GDI32.LIB", "WINSPOOL.LIB", "SHELL32.LIB", "OLE32.LIB", "OLEAUT32.LIB", "UUID.LIB", "COMDLG32.LIB", "ADVAPI32.LIB"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "presentation": {
+          "reveal": "always"
+        },
+        "problemMatcher": "$msCompile"
+      }
+    ]
+  }

@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "F:/HypervShared/Source/opengl/glew-2.1.0/include",
+                "F:/HypervShared/Source/opengl/glfw-3.3/include",
+                "F:/HypervShared/Source/opengl/glm",
+                "F:/HypervShared/Source/opengl/SDL2-2.0.10/include",
+                "F:/HypervShared/Source/opengl/freetype/include",
+                "F:/HypervShared/Source/opengl/freeglut/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.18362.0",
+            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.24.28314/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64"
+        }
+    ],
+    "version": 4
+}
