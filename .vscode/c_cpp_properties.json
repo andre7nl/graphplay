@@ -5,11 +5,9 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "F:/HypervShared/Source/opengl/glew-2.1.0/include",
-                "F:/HypervShared/Source/opengl/glfw-3.3/include",
                 "F:/HypervShared/Source/opengl/glm",
                 "F:/HypervShared/Source/opengl/SDL2-2.0.10/include",
-                "F:/HypervShared/Source/opengl/freetype/include",
-                "F:/HypervShared/Source/opengl/freeglut/include"
+                "F:/HypervShared/Source/opengl/freetype/include"
             ],
             "defines": [
                 "_DEBUG",
